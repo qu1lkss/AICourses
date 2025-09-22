@@ -1,6 +1,6 @@
 import numpy as np
 #функция которая посчитает пример из лекции (все правильно) :)
-def linear_regression_mse_for_example_from_lection(X, y):
+def linear_regression_mse_for_example_from_lecture(X, y):
     X = np.asarray(X, dtype=float)
     y = np.asarray(y, dtype=float).reshape(-1)
 
@@ -38,4 +38,4 @@ print(linear_regression_mse(X1, y1))
 
 X2=[[23, 0.5],[35, 1], [18, 0]]
 y2=[55,100,45]
-print(linear_regression_mse_for_example_from_lection(X2, y2))
+print(linear_regression_mse_for_example_from_lecture(X2, y2))
